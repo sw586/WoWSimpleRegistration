@@ -1,125 +1,64 @@
-# Simple Register Page for TrinityCore/AzerothCore/AshamaneCore/CMangos
+# TrinityCore / AzerothCore / AshamaneCore / CMangos的简单注册页面
 
-With this script, You can make a website for your game server.
+使用此脚本，您可以为游戏服务器创建网站。
 
-Support : [AzerothCore](http://azerothcore.org), [TrinityCore](http://TrinityCore.org), [AshamaneCore](https://github.com/AshamaneProject/AshamaneCore/), [CMangos](https://github.com/cmangos/).
+支持 : [AzerothCore](http://azerothcore.org), [TrinityCore](http://TrinityCore.org), [AshamaneCore](https://github.com/AshamaneProject/AshamaneCore/), [CMangos](https://github.com/cmangos/).
 
 
-## Requirement : PHP >= 7.0
+## 要求： : PHP >= 7.0
 
-Enable gmp, gd, soap, mbstring, pdo and pdo-mysql.
+开启： gmp, gd, soap, mbstring, pdo 和 pdo-mysql.
 
-# Installation
+# 安装
 
- - Download project & unzip.
- - Go to `application/config/` folder and change `config.php.sample` file name to `config.php`
- - Open the config file and set your server data.
- - Enjoy that.
+ - 下载项目并解压缩。
+ - 转到application/config/文件夹并将config.php.sample文件名更改为config.php
+ - 打开配置文件并设置服务器数据。
+ - 完成
 
-# Debug
+# 除错
 
-If you got a blank screen, You can enable `debug_mode` in the config file.
+如果屏幕空白，则可以debug_mode在配置文件中启用。
 
-## Features
+## 特征
 
- 1. Register Page (Support Vanilla/TBC/WotLK/MoP/WoD/Legion/BFA)
- 2. Online Players Status (Multi-Realm support).
- 3. Show TOPs by Playtime, Kills, Honor Point, Arena Point, Arena Team (Multi-Realm support).
- 4. How to connect Page.
- 5. Contact us page.
- 6. Multiple template (Light, Icecrown, Kaelthas, Advance, Battle for Azeroth).
- 7. Change Password (4/10/2019).
- 8. Restore Password (5/31/2019).
- 9. Vote System (4/03/2020).
- 10. Support HCaptcha/Recaptcha v2 (7/27/2020).
- 11. Support Two-Factor Authentication (2FA) (7/28/2020).
- 12. **Multi-Language support** (9/10/2020) (Support: 🇬🇧 English, 🇮🇷 Persian, 🇮🇹 Italian, 🇨🇳 Chinese-simplified, 🇹🇼 Chinese-traditional, 🇸🇪 Swedish, 🇫🇷 French, 🇩🇪 German, 🇪🇸 Spanish, 🇰🇷 Korean).
-
-## Changelogs
-
- **2.0.0 (8/03/2020):**
- 1. Added Battle for Azeroth template.
- 
- **1.9.9 (8/03/2020):**
- 1. Multi-Language support.
- 
- **1.9.8 (8/03/2020):**
- 1. Support SRP6.
- 
-  **1.9.7 (7/28/2020):**
- 1. Support Two-Factor Authentication (2FA)
- 2. Fixed a low-level vulnerability. (UPDATE TO THIS VERSION)
- 3. Fixed some of the bugs.
- 3. Allow running `account set addon` command after registration. (SOAP registration)
- 
- **1.9.6 (7/27/2020):**
- 1. Support HCaptcha/Recaptcha/Image captcha.
- 2. Fixed page load speed!
- 3. Add more description for the config file.
- 3. Update composer packages.
- 
- **1.9.5 (4/17/2020):**
- 1. Register/Restore Password via SOAP. (Support CMangos)
- 
- **1.9.4 (4/03/2020):**
- 1. Vote Added.
- 
- **1.9.3 (4/02/2020):**
- 1. Added a new template.
-
- **1.9.2 (3/31/2020):**
- 1. Fixed some of the issues.
-
- **1.9.1 (3/12/2020):**
- 1. Check the PHP version.
- 
- **1.9 (3/12/2020):**
- 1. Allow using an email for multiple accounts. (For non-battle.net servers)
- 2. Replace Email to username for change password and restore password. (For non-battle.net servers)
- 3. Add an option to enable or disable top players and online players.
+ 1. 注册页面（支持Vanilla / TBC / WotLK / MoP / WoD / Legion / BFA）
+ 2. 在线玩家状态（多领域支持）。
+ 3. 按游戏时间，击杀次数，荣誉点，竞技场点数，竞技场团队显示TOP（多领域支持）。
+ 4. 如何连接页面。
+ 5. 与我们联系页面。
+ 6. 多个模板 (Light, Icecrown, Kaelthas, Advance, Battle for Azeroth).
+ 7. 更改密码 (4/10/2019).
+ 8. 恢复密码 (5/31/2019).
+ 9. 投票系统 (4/03/2020).
+ 10. 支持 HCaptcha/Recaptcha v2 (7/27/2020).
+ 11. 支持两因素身份验证 (2FA) (7/28/2020).
+ 12. 多国语言支持（9/10/2020）（支持：🇬🇧 英语， 🇮🇷 波斯语， 🇮🇹 义大利文， 🇨🇳 简体中文， 🇹🇼 中国传统的， 🇸🇪 瑞典， 🇫🇷 法国人 🇩🇪 德语， 🇪🇸 西班牙文， 🇰🇷 韩语）。
 
 ## Screenshots
 
 ## Advance Template
 
-![Advance](https://raw.githubusercontent.com/masterking32/WoWSimpleRegistration/master/screenshots/a-bfa-min.jpg)
+![Advance](https://cdn.jsdelivr.net/gh/sw586/WoWSimpleRegistration@master/screenshots/a-bfa-min.jpg)
 
 ## Battle for Azeroth
 
-![BFA](https://raw.githubusercontent.com/masterking32/WoWSimpleRegistration/master/screenshots/b1.jpg)
+![BFA](https://cdn.jsdelivr.net/gh/sw586/WoWSimpleRegistration@master/screenshots/b1.jpg)
 
 ## Light Template
 
-![Register Page](https://raw.githubusercontent.com/masterking32/WoWSimpleRegistration/master/screenshots/1.jpg)
+![Register Page](https://cdn.jsdelivr.net/gh/sw586/WoWSimpleRegistration@master/screenshots/1.jpg)
 
 ## IceCrown Template
 
-![Home Page](https://raw.githubusercontent.com/masterking32/WoWSimpleRegistration/master/screenshots/i1.jpg)
+![Home Page](https://cdn.jsdelivr.net/gh/sw586/WoWSimpleRegistration@master/screenshots/i1.jpg)
 ## Kael'thas Template
 
-![Home Page](https://raw.githubusercontent.com/masterking32/WoWSimpleRegistration/master/screenshots/k1.jpg)
+![Home Page](https://cdn.jsdelivr.net/gh/sw586/WoWSimpleRegistration@master/screenshots/k1.jpg)
 
-Need more screenshots? [Check here](https://github.com/masterking32/WoWSimpleRegistration/tree/master/screenshots)
+需要更多屏幕截图吗？ [点击这里](https://github.com/masterking32/WoWSimpleRegistration/tree/master/screenshots)
 
-## Programmers
+## 作者
 
 Author : [Amin.MasterkinG](https://masterking32.com)
 
-
-## Translate
-
-English/Persian by [Amin.MasterkinG](https://github.com/masterking32)
-
-Italian by [Helias](https://github.com/helias)
-
-Chinese-simplified/Chinese-traditional by [Coolzoom](https://github.com/coolzoom)
-
-Swedish by [Kitzunu](https://github.com/Kitzunu)
-
-French by [Kalorte](https://github.com/Kalorte)
-
-German by [DuelistRag3](https://github.com/DuelistRag3)
-
-Spanish by [xjose93](https://github.com/xjose93)
-
-Korean by [KOREAFTP](https://github.com/KOREAFTP)
