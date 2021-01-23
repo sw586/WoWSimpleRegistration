@@ -1,8 +1,8 @@
 <?php
 /**
  * @author Amin Mahmoudi (MasterkinG)
- * @copyright    Copyright (c) 2019 - 2020, MasterkinG32. (https://masterking32.com)
- * @link    https://masterking32.com
+ * @copyright    Copyright (c) 2019 - 2020, MasterkinG32. (https://wow.suok.ml)
+ * @link    https://wow.suok.ml
  * @Description : It's not masterking32 framework
  * @TODO: Add vote verify system.
  **/

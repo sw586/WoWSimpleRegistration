@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by Amin.MasterkinG
- * Website : MasterkinG32.CoM
+ * Website : wow.suok.ml
  * Email : lichwow_masterking@yahoo.com
  * Date: 04/02/2020 - 6:55 PM
  */
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="col-lg-5 order-1 order-lg-2 align-items-stretch"
-                 style='background-image: url("<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/img/invincible.png");background-size: auto 100%;background-position: center;background-repeat: no-repeat;'
+                 style='background-image: url("<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/img/invincible.png");background-size: auto 100%;background-position: center;background-repeat: no-repeat;'
                  data-aos="zoom-in">
             </div>
         </div>

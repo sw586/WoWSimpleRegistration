@@ -60,5 +60,5 @@
 
 ## 作者
 
-Author : [Amin.MasterkinG](https://masterking32.com)
+Author : [Amin.MasterkinG](https://wow.suok.ml)
 

@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by Amin.MasterkinG
- * Website : MasterkinG32.CoM
+ * Website : wow.suok.ml
  * Email : lichwow_masterking@yahoo.com
  * Date: 11/26/2018 - 8:36 PM
  */
@@ -12,25 +12,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MasterkinG32.CoM"/>
+    <meta name="generator" content="wow.suok.ml"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="description" content="<?php echo $antiXss->xss_clean(get_config("page_title")); ?>">
     <meta name="description" content="<?php echo $antiXss->xss_clean(get_config("page_title")); ?>">
     <title><?php echo $antiXss->xss_clean(get_config("page_title")); ?></title>
     <link rel="stylesheet"
-          href="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/css/bootstrap.min.css">
+          href="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/css/bootstrap.min.css">
     <link rel="stylesheet"
-          href="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/css/bootsnav.css">
+          href="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/css/bootsnav.css">
     <link rel="stylesheet"
-          href="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/css/animate.css">
+          href="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/css/animate.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet"
-          href="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/css/style.css">
-    <script src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/js/jquery-3.3.1.min.js"></script>
-    <script src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/js/bootsnav.js"></script>
-    <script src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/js/popper.min.js"></script>
+          href="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/css/style.css">
+    <script src="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/js/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/js/bootsnav.js"></script>
+    <script src="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/js/popper.min.js"></script>
     <?php echo getCaptchaJS(); ?>
 
     <?php echo(!empty(lang('custom_css')) ? '<style>' . lang('custom_css') . '</style>' : ''); ?>
@@ -38,7 +38,7 @@
 </head>
 <body>
 <video autoplay muted loop id="myVideo">
-    <source src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/video.mp4"
+    <source src="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/video.mp4"
             type="video/mp4">
 </video>
 <div class="content1">
@@ -52,7 +52,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="#brand"><img
-                                src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/images/wow-logo.png"
+                                src="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/images/wow-logo.png"
                                 class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->

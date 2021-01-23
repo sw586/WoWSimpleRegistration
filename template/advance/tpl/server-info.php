@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by Amin.MasterkinG
- * Website : MasterkinG32.CoM
+ * Website : wow.suok.ml
  * Email : lichwow_masterking@yahoo.com
  * Date: 04/02/2020 - 6:55 PM
  */
@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-right">
                     <div class="image">
-                        <img src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/img/jaina.png"
+                        <img src="<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/img/jaina.png"
                              class="img-fluid" alt="">
                     </div>
                 </div>

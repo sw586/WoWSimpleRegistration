@@ -1,8 +1,8 @@
 <?php
 /**
  * @作者Amin Mahmoudi（MasterkinG）
- * @copyright版权所有（c）2019-2020，MasterkinG32。（https://masterking32.com）
- * @链接https://masterking32.com
+ * @copyright版权所有（c）2019-2020，MasterkinG32。（https://wow.suok.ml）
+ * @链接https://wow.suok.ml
  * @描述：它不是masterking32框架！
  **/
 
@@ -16,6 +16,7 @@
              (english/persian/italian/chinese-simplified/chinese-traditional/swedish/french/german/spanish/korean)
 =====================================================================*/
 $config['baseurl'] = "http://wow.suok.ml";
+$config['cdnurl'] = "https://cdn.jsdelivr.net/gh/sw586/WoWSimpleRegistration@master/";
 $config['page_title'] = "suok公益魔兽";
 $config['language'] = "chinese-simplified";
 /*===================================================================

@@ -1,13 +1,13 @@
 <?php
 /**
  * @author Amin Mahmoudi (MasterkinG)
- * @copyright    Copyright (c) 2019 - 2020, MasterkinG32. (https://masterking32.com)
- * @link    https://masterking32.com
+ * @copyright    Copyright (c) 2019 - 2020, MasterkinG32. (https://wow.suok.ml)
+ * @link    https://wow.suok.ml
  * @Description : It's not masterking32 framework !
  **/
 
 $language['lang'] = 'persian';
-$language['custom_css'] = '@font-face {font-family: vazir;src: url(\''.get_config('baseurl').'/template/languages/persian/fonts/Vazir-Light-FD.eot\');src: url(\''.get_config('baseurl').'/template/languages/persian/fonts/Vazir-Light-FD.eot?#iefix\') format(\'FontName-opentype\'),url(\''.get_config('baseurl').'/template/languages/persian/fonts/Vazir-Light-FD.woff\') format(\'woff\'),url(\''.get_config('baseurl').'/template/languages/persian/fonts/Vazir-Light-FD.ttf\') format(\'truetype\');font-weight: normal; font-style: normal;}*, h1, h2, h3, h4, h5, h6, .nav-menu a, a{ font-family: vazir;direction: rtl;} .modal-header .close {padding: 1rem 1rem;margin: -1rem auto -1rem -1rem;} .alert { text-align: right;}.content_box1{ text-align: right;}';
+$language['custom_css'] = '@font-face {font-family: vazir;src: url(\''.get_config('cdnurl').'/template/languages/persian/fonts/Vazir-Light-FD.eot\');src: url(\''.get_config('cdnurl').'/template/languages/persian/fonts/Vazir-Light-FD.eot?#iefix\') format(\'FontName-opentype\'),url(\''.get_config('cdnurl').'/template/languages/persian/fonts/Vazir-Light-FD.woff\') format(\'woff\'),url(\''.get_config('cdnurl').'/template/languages/persian/fonts/Vazir-Light-FD.ttf\') format(\'truetype\');font-weight: normal; font-style: normal;}*, h1, h2, h3, h4, h5, h6, .nav-menu a, a{ font-family: vazir;direction: rtl;} .modal-header .close {padding: 1rem 1rem;margin: -1rem auto -1rem -1rem;} .alert { text-align: right;}.content_box1{ text-align: right;}';
 $language['tpl_light_custom_css'] = '';
 $language['tpl_advance_custom_css'] = '#hero .btn-get-started, .why-us .accordion-list a, .faq .faq-list a{ font-family: vazir;direction: rtl;} .icon-box, .content, .why-us, .faq, .contact .info { text-align: right;} .services .icon-box i,.contact .info i { float: right; margin-left: 10px;}';
 $language['tpl_icecrown_custom_css'] = '';

@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by Amin.MasterkinG
- * Website : MasterkinG32.CoM
+ * Website : wow.suok.ml
  * Email : lichwow_masterking@yahoo.com
  * Date: 04/02/2020 - 6:55 PM
  */
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="image col-lg-6 order-1 order-lg-2"
-                 style='background-image: url("<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/img/sylvanas.png");background-size: auto 100%;background-position: center;background-repeat: no-repeat;'
+                 style='background-image: url("<?php echo $antiXss->xss_clean(get_config("cdnurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/img/sylvanas.png");background-size: auto 100%;background-position: center;background-repeat: no-repeat;'
                  data-aos="fade-left" data-aos-delay="100"></div>
         </div>
     </div>
